@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Game.unity
+    guid: 3961acf3a8b936746a1454df240f06d7
+  - enabled: 1
+    path: Assets/Scenes/Add/Add.unity
+    guid: 3b9263bdfb0a4ff49afd0cf65b0881c5
+  - enabled: 1
+    path: Assets/Scenes/Add/AddSecondExample.unity
+    guid: 10801c58433b9e84489512f8fe37b26c
+  - enabled: 1
+    path: Assets/Scenes/Substraction/Substract.unity
+    guid: 9989f1e87a1662640b0b5e784e946f85
+  - enabled: 1
+    path: Assets/Scenes/Substraction/SecondSubstract.unity
+    guid: 8c90d9a2fc6ea8845a4a63b7aa264628
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/ChoiceMultiplication.unity
+    guid: 597f8733b7aaf964fa03f871825d7115
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/One/OneMultiplication.unity
+    guid: 88c52c3abb937b847b2061c4cea8389f
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/One/OneSecondMultiplication.unity
+    guid: 50f0ff57e7d04f5458ad0f5c99fd9a04
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Two/TwoMultiplication.unity
+    guid: 54f30387a6e24804984caccab639580c
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Two/TwoSecondMultiplication.unity
+    guid: 046c35e8e2d48e24fa497c2d5de91bda
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Three/ThreeMultiplication.unity
+    guid: 48e2ceea263c9d84cafd8f3eaea0d97b
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Three/ThreeSecondMultiplication.unity
+    guid: 368f9d1358ddede4cbddb19e3ee94cc7
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Four/FourMultiplication.unity
+    guid: 579c9b22cc4fe0242a3b30e56498c987
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Four/FourSecondMultiplication.unity
+    guid: 53662af3f43eb0841a36f7baee512280
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Five/FiveMultiplication.unity
+    guid: 3ed0fb637103f2840876643e5b8e7f13
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Five/FiveSecondMultiplication.unity
+    guid: 56623b328a45ab54a92e2b0e3f338e7f
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Six/SixMultiplication.unity
+    guid: f59e33379a7359a4bab055269854ac3e
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Six/SixSecondMultiplication.unity
+    guid: 3b32f41c31e54fe4e8c139146389167c
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Seven/SevenMultiplication.unity
+    guid: c197ff9f714d17840baee3f30e24be83
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Seven/SevenSecondMultiplication.unity
+    guid: 47068ac991e58124da9074f4961319ed
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Eight/EightMultiplication.unity
+    guid: db8e52c91e513114fb459c5074c32abe
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Eight/EightSecondMultiplication.unity
+    guid: a16da394c7f92a24490dee82d4dcdde5
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Nine/NineMultiplication.unity
+    guid: 3efed9e14b3e59a4b8c2d8c13e971510
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Nine/NineSecondMultiplication.unity
+    guid: c8007d087f9c6c440b2c6a4825cca8dc
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Ten/TenMultiplication.unity
+    guid: f78e4002f3a7026458f4094d308fd78e
+  - enabled: 1
+    path: Assets/Scenes/Multiplication/Ten/TenSecondMultiplication.unity
+    guid: 2367644592b92c84783027da334a2400
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}
