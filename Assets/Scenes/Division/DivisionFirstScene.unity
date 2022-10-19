@@ -699,9 +699,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MultiplicationTenthNumberController, Assembly-CSharp
-        m_MethodName: ResetSecondSceneMultiplicationBtn
+      - m_Target: {fileID: 1821215346}
+        m_TargetAssemblyTypeName: DivisionController, Assembly-CSharp
+        m_MethodName: ResetBtn
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -832,8 +832,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MultiplicationTenthNumberController, Assembly-CSharp
+      - m_Target: {fileID: 1821215346}
+        m_TargetAssemblyTypeName: DivisionController, Assembly-CSharp
         m_MethodName: ReturnBtn
         m_Mode: 1
         m_Arguments:
@@ -1074,6 +1074,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b58ab633140ccc94ca25dbde132b8d7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  inputResult: {fileID: 605208985}
+  textOperation: {fileID: 1264149653}
 --- !u!1 &1997361567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,9 +1239,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: MultiplicationTenthNumberController, Assembly-CSharp
-        m_MethodName: SecondExample
+      - m_Target: {fileID: 1821215346}
+        m_TargetAssemblyTypeName: DivisionController, Assembly-CSharp
+        m_MethodName: FirstExample
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -13,12 +13,12 @@ public class GameController : MonoBehaviour
 
     public void ChoiceSubstract()
     {
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(13);
     }
 
     public void ChoiceMultiplication()
     {
-        SceneManager.LoadScene(6);
+        SceneManager.LoadScene(21);
     }
 
     public void ChoiceDivision()
