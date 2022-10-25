@@ -18,12 +18,12 @@ public class GameController : MonoBehaviour
 
     public void ChoiceMultiplication()
     {
-        SceneManager.LoadScene(21);
+        SceneManager.LoadScene(20);
     }
 
     public void ChoiceDivision()
     {
-        SceneManager.LoadScene(8);
+        SceneManager.LoadScene(31);
     }
 
     public void ReturnBtn()

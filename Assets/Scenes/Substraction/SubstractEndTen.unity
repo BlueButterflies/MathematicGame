@@ -287,8 +287,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 1486382870}
+        m_TargetAssemblyTypeName: EndTenController, Assembly-CSharp
         m_MethodName: ButtonFirstExample
         m_Mode: 1
         m_Arguments:
@@ -421,8 +421,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 1486382870}
+        m_TargetAssemblyTypeName: EndTenController, Assembly-CSharp
         m_MethodName: ButtonFourthExample
         m_Mode: 1
         m_Arguments:
@@ -555,8 +555,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 1486382870}
+        m_TargetAssemblyTypeName: EndTenController, Assembly-CSharp
         m_MethodName: ButtonThirdExample
         m_Mode: 1
         m_Arguments:
@@ -688,8 +688,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 1486382870}
+        m_TargetAssemblyTypeName: EndTenController, Assembly-CSharp
         m_MethodName: ReturnBtn
         m_Mode: 1
         m_Arguments:
@@ -1066,8 +1066,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 1486382870}
+        m_TargetAssemblyTypeName: EndTenController, Assembly-CSharp
         m_MethodName: ButtonSecondExample
         m_Mode: 1
         m_Arguments:
@@ -1236,7 +1236,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1486382869}
   - component: {fileID: 1486382868}
-  - component: {fileID: 1486382867}
+  - component: {fileID: 1486382870}
   m_Layer: 0
   m_Name: SubstractController
   m_TagString: Untagged
@@ -1244,27 +1244,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1486382867
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1486382866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15c4ef17265d8734c9af64d6ffe95ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberFirst: {fileID: 1924015457}
-  numberSecond: {fileID: 870928431}
-  audioClips:
-  - {fileID: 8300000, guid: b4c36e97f39b0084ebcba684f3c865cd, type: 3}
-  - {fileID: 8300000, guid: 2cdb6ba54ff0dbc4b8d0a991e8b2c1bf, type: 3}
-  firstResult: {fileID: 622693446}
-  secondResult: {fileID: 86820210}
-  thirdResult: {fileID: 1665326629}
-  fourthResult: {fileID: 1497468019}
 --- !u!82 &1486382868
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1376,6 +1355,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1486382870
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1486382866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a7395076c0dcd4b4499b4689584c39a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberFirst: {fileID: 1924015457}
+  numberSecond: {fileID: 870928431}
+  audioClips:
+  - {fileID: 8300000, guid: b4c36e97f39b0084ebcba684f3c865cd, type: 3}
+  - {fileID: 8300000, guid: 2cdb6ba54ff0dbc4b8d0a991e8b2c1bf, type: 3}
+  firstResult: {fileID: 622693446}
+  secondResult: {fileID: 86820210}
+  thirdResult: {fileID: 1665326629}
+  fourthResult: {fileID: 1497468019}
 --- !u!1 &1497468018
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,8 +1843,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 1486382870}
+        m_TargetAssemblyTypeName: EndTenController, Assembly-CSharp
         m_MethodName: MenuBtn
         m_Mode: 1
         m_Arguments:

@@ -8,52 +8,52 @@ public class ChoiceNumber : MonoBehaviour
     #region Buttons Choice
     public void ChoiceOne()
     {
-        SceneManager.LoadScene(22); 
+        SceneManager.LoadScene(21); 
     }
 
     public void ChoiceTwo()
     {
-        SceneManager.LoadScene(23);
+        SceneManager.LoadScene(22);
     }
 
     public void ChoiceThree()
     {
-        SceneManager.LoadScene(24);
+        SceneManager.LoadScene(23);
     }
 
     public void ChoiceFour()
     {
-        SceneManager.LoadScene(25);
+        SceneManager.LoadScene(24);
     }
 
     public void ChoiceFive()
     {
-        SceneManager.LoadScene(26);
+        SceneManager.LoadScene(25);
     }
 
     public void ChoiceSix()
     {
-        SceneManager.LoadScene(27);
+        SceneManager.LoadScene(26);
     }
 
     public void ChoiceSeven()
     {
-        SceneManager.LoadScene(28);
+        SceneManager.LoadScene(27);
     }
 
     public void ChoiceEight()
     {
-        SceneManager.LoadScene(29);
+        SceneManager.LoadScene(28);
     }
 
     public void ChoiceNine()
     {
-        SceneManager.LoadScene(30);
+        SceneManager.LoadScene(29);
     }
 
     public void ChoiceTen()
     {
-        SceneManager.LoadScene(31);
+        SceneManager.LoadScene(30);
     }
     #endregion
 

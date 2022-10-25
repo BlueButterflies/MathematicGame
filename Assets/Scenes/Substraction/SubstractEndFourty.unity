@@ -150,7 +150,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 93099956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15c4ef17265d8734c9af64d6ffe95ce5, type: 3}
+  m_Script: {fileID: 11500000, guid: d91b0a75d6b801c4a88063c6dd53bba6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   numberFirst: {fileID: 1007530222}
@@ -332,7 +332,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.12431464, g: 0.9150943, b: 0.7991643, a: 1}
+  m_Color: {r: 0.49667603, g: 0, b: 0.9811321, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -436,8 +436,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 93099957}
+        m_TargetAssemblyTypeName: EndFourtyController, Assembly-CSharp
         m_MethodName: MenuBtn
         m_Mode: 1
         m_Arguments:
@@ -461,7 +461,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.90588236, g: 0.023529412, b: 0.015686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -605,7 +605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.90588236, g: 0.023529412, b: 0.015686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -693,7 +693,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.91764706, b: 0.8, a: 1}
+  m_Color: {r: 0.49803922, g: 0, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -798,8 +798,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 93099957}
+        m_TargetAssemblyTypeName: EndFourtyController, Assembly-CSharp
         m_MethodName: ButtonFirstExample
         m_Mode: 1
         m_Arguments:
@@ -823,7 +823,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.9622642, g: 0.284387, b: 0.049020927, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -932,8 +932,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 93099957}
+        m_TargetAssemblyTypeName: EndFourtyController, Assembly-CSharp
         m_MethodName: ButtonThirdExample
         m_Mode: 1
         m_Arguments:
@@ -957,7 +957,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.9647059, g: 0.28627452, b: 0.050980393, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1065,8 +1065,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 93099957}
+        m_TargetAssemblyTypeName: EndFourtyController, Assembly-CSharp
         m_MethodName: ReturnBtn
         m_Mode: 1
         m_Arguments:
@@ -1090,7 +1090,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.90588236, g: 0.023529412, b: 0.015686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1174,7 +1174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.9056604, g: 0.02070267, b: 0.011961505, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1279,8 +1279,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 93099957}
+        m_TargetAssemblyTypeName: EndFourtyController, Assembly-CSharp
         m_MethodName: ButtonSecondExample
         m_Mode: 1
         m_Arguments:
@@ -1304,7 +1304,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.9647059, g: 0.28627452, b: 0.050980393, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1388,7 +1388,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.91764706, b: 0.8, a: 1}
+  m_Color: {r: 0.49803922, g: 0, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1468,7 +1468,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.90588236, g: 0.023529412, b: 0.015686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1599,7 +1599,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1722449458}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1610,7 +1610,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 275, y: -572}
+  m_AnchoredPosition: {x: 274.99997, y: -572}
   m_SizeDelta: {x: 400, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1722449460
@@ -1657,8 +1657,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 93099957}
+        m_TargetAssemblyTypeName: EndFourtyController, Assembly-CSharp
         m_MethodName: ButtonFourthExample
         m_Mode: 1
         m_Arguments:
@@ -1682,7 +1682,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.9647059, g: 0.28627452, b: 0.050980393, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1924,7 +1924,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.91764706, b: 0.8, a: 1}
+  m_Color: {r: 0.49803922, g: 0, b: 0.9843137, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

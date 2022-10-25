@@ -66,9 +66,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Substraction/SubstractEndHundred.unity
     guid: 4352fa6bf9746494db4d1c4e14b98df2
   - enabled: 1
-    path: Assets/Scenes/Substraction/SubstractMoreExersice.unity
-    guid: dab370bc52103c045b857644be6bcc53
-  - enabled: 1
     path: Assets/Scenes/Multiplication/ChoiceMultiplication.unity
     guid: 597f8733b7aaf964fa03f871825d7115
   - enabled: 1
@@ -101,12 +98,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Multiplication/TenMultiplication.unity
     guid: 469533a949ceb5a41988902b89ac3008
+  - enabled: 1
+    path: Assets/Scenes/Division/DivisionChoice.unity
+    guid: 3ed6d93e9a912e241a0b3ff8eaacf3f3
+  - enabled: 1
+    path: Assets/Scenes/Division/DivisionWithOneNumber.unity
+    guid: 5222dd6478c95304aa048ec4a64dbcd9
+  - enabled: 1
+    path: Assets/Scenes/Division/DivisionWithTwoNumbers.unity
+    guid: f787f4146503a394abf8883e5c2bf131
   - enabled: 0
-    path: Assets/Scenes/Division/DivisionFirstScene.unity
-    guid: 0b4169e85f2b51540bde691dbb685ec1
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
-    path: Assets/Scenes/Division/DivisionSecondScene.unity
-    guid: 7ae3a584ae932224c8a4c968d5e5ef1d
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000

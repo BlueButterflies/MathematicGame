@@ -154,7 +154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.91764706, b: 0.8, a: 1}
+  m_Color: {r: 0.90588236, g: 0.06666667, b: 0.35686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -213,7 +213,7 @@ GameObject:
   m_Component:
   - component: {fileID: 419033611}
   - component: {fileID: 419033610}
-  - component: {fileID: 419033609}
+  - component: {fileID: 419033612}
   m_Layer: 0
   m_Name: SubstractController
   m_TagString: Untagged
@@ -221,27 +221,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &419033609
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 419033608}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 15c4ef17265d8734c9af64d6ffe95ce5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  numberFirst: {fileID: 1778171314}
-  numberSecond: {fileID: 871470297}
-  audioClips:
-  - {fileID: 8300000, guid: b4c36e97f39b0084ebcba684f3c865cd, type: 3}
-  - {fileID: 8300000, guid: 2cdb6ba54ff0dbc4b8d0a991e8b2c1bf, type: 3}
-  firstResult: {fileID: 1948011287}
-  secondResult: {fileID: 989212120}
-  thirdResult: {fileID: 1570281142}
-  fourthResult: {fileID: 159112770}
 --- !u!82 &419033610
 AudioSource:
   m_ObjectHideFlags: 0
@@ -353,6 +332,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &419033612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 419033608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362face088ff0a748b695adcaf4b6a4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  numberFirst: {fileID: 1778171314}
+  numberSecond: {fileID: 871470297}
+  audioClips:
+  - {fileID: 8300000, guid: b4c36e97f39b0084ebcba684f3c865cd, type: 3}
+  - {fileID: 8300000, guid: 2cdb6ba54ff0dbc4b8d0a991e8b2c1bf, type: 3}
+  firstResult: {fileID: 1948011287}
+  secondResult: {fileID: 989212120}
+  thirdResult: {fileID: 1570281142}
+  fourthResult: {fileID: 159112770}
 --- !u!1 &871470294
 GameObject:
   m_ObjectHideFlags: 0
@@ -412,7 +412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.3882353, g: 0.9607843, b: 0.05882353, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -492,7 +492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.91764706, b: 0.8, a: 1}
+  m_Color: {r: 0.90588236, g: 0.06666667, b: 0.35686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -716,7 +716,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.1254902, g: 0.91764706, b: 0.8, a: 1}
+  m_Color: {r: 0.90588236, g: 0.06666667, b: 0.35686275, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -821,8 +821,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 419033612}
+        m_TargetAssemblyTypeName: EndTwentyController, Assembly-CSharp
         m_MethodName: ButtonFirstExample
         m_Mode: 1
         m_Arguments:
@@ -846,7 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.9622642, g: 0.284387, b: 0.049020927, a: 1}
+  m_Color: {r: 0.050980415, g: 0.9607843, b: 0.6137922, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1124,7 +1124,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.38539502, g: 0.9607843, b: 0.0588235, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1228,8 +1228,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 419033612}
+        m_TargetAssemblyTypeName: EndTwentyController, Assembly-CSharp
         m_MethodName: ReturnBtn
         m_Mode: 1
         m_Arguments:
@@ -1253,7 +1253,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.3882353, g: 0.9607843, b: 0.05882353, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1362,8 +1362,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 419033612}
+        m_TargetAssemblyTypeName: EndTwentyController, Assembly-CSharp
         m_MethodName: ButtonSecondExample
         m_Mode: 1
         m_Arguments:
@@ -1387,7 +1387,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.9647059, g: 0.28627452, b: 0.050980393, a: 1}
+  m_Color: {r: 0.05490196, g: 0.9607843, b: 0.6156863, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1496,8 +1496,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 419033612}
+        m_TargetAssemblyTypeName: EndTwentyController, Assembly-CSharp
         m_MethodName: ButtonThirdExample
         m_Mode: 1
         m_Arguments:
@@ -1521,7 +1521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.9647059, g: 0.28627452, b: 0.050980393, a: 1}
+  m_Color: {r: 0.05490196, g: 0.9607843, b: 0.6156863, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1605,7 +1605,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.12431464, g: 0.9150943, b: 0.7991643, a: 1}
+  m_Color: {r: 0.9056604, g: 0.063225314, b: 0.35393673, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1709,8 +1709,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 419033612}
+        m_TargetAssemblyTypeName: EndTwentyController, Assembly-CSharp
         m_MethodName: MenuBtn
         m_Mode: 1
         m_Arguments:
@@ -1734,7 +1734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.3882353, g: 0.9607843, b: 0.05882353, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1843,8 +1843,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: TenController, Assembly-CSharp
+      - m_Target: {fileID: 419033612}
+        m_TargetAssemblyTypeName: EndTwentyController, Assembly-CSharp
         m_MethodName: ButtonFourthExample
         m_Mode: 1
         m_Arguments:
@@ -1868,7 +1868,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 2100000, guid: d82d7c6f8e6f84d4da94fa6230937247, type: 3}
-  m_Color: {r: 0.9647059, g: 0.28627452, b: 0.050980393, a: 1}
+  m_Color: {r: 0.05490196, g: 0.9607843, b: 0.6156863, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1944,7 +1944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.4627451, g: 0.05882353, b: 0.9607843, a: 1}
+  m_Color: {r: 0.3882353, g: 0.9607843, b: 0.05882353, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

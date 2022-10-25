@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class TwoController : MonoBehaviour
+public class WithOneNumberController : MonoBehaviour
 {
     #region Variables
     public Text numberFirst;
@@ -18,15 +18,15 @@ public class TwoController : MonoBehaviour
     public Text thirdResult;
     public Text fourthResult;
 
-    private int firstNumber;
-    private int secondNumber;
-    private int temp;
+    private float firstNumber;
+    private float secondNumber;
+    private float temp;
 
-    private int firstExample;
-    private int secondExample;
-    private int thirdExample;
+    private float firstExample;
+    private float secondExample;
+    private float thirdExample;
 
-    private int result;
+    private float result;
     #endregion
 
     public void Start()
@@ -39,17 +39,12 @@ public class TwoController : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = 2;
-        secondNumber = Random.Range(1, 10);
+        firstNumber = Random.Range(10, 100);
+        secondNumber = Random.Range(1, 9);
 
-        if (firstNumber - secondNumber < 0)
-        {
-            temp = secondNumber;
-            secondNumber = firstNumber;
-            firstNumber = temp;
-        }
+        
 
-        result = firstNumber * secondNumber;
+        result = Mathf.Round((firstNumber / secondNumber) * 100.0f) * 0.01f;
 
         numberFirst.text = firstNumber.ToString();
         numberSecond.text = secondNumber.ToString();
@@ -61,32 +56,32 @@ public class TwoController : MonoBehaviour
     {
         //first example
 
-        temp = UnityEngine.Random.Range(1, 20);
+        temp = Random.Range(1.0f, 60);
         while (temp == result)
         {
-            temp = UnityEngine.Random.Range(1, 20);
+            temp = Random.Range(1.0f, 60);
         }
-        firstExample = temp;
+        firstExample = Mathf.Round(temp * 100.0f) * 0.01f; ;
 
         //second example
-        temp = UnityEngine.Random.Range(1, 20);
+        temp = Random.Range(1.0f, 60);
         while (temp == result || temp == firstExample)
         {
-            temp = UnityEngine.Random.Range(1, 20);
+            temp = Random.Range(1.0f, 60);
         }
-        secondExample = temp;
+        secondExample = Mathf.Round(temp * 100.0f) * 0.01f; ;
 
         //third example
-        temp = UnityEngine.Random.Range(1, 20);
+        temp = Random.Range(1.0f, 60);
         while (temp == result || temp == firstExample || temp == secondExample)
         {
-            temp = UnityEngine.Random.Range(1, 20);
+            temp = Random.Range(1.0f, 6);
         }
-        thirdExample = temp;
+        thirdExample = Mathf.Round(temp * 100.0f) * 0.01f; ;
 
         //random buttons example result
 
-        temp = UnityEngine.Random.Range(1, 7);
+        temp = Random.Range(1, 7);
 
         if (temp == 1)
         {
@@ -99,8 +94,8 @@ public class TwoController : MonoBehaviour
         if (temp == 2)
         {
             firstResult.text = thirdExample.ToString();
-            secondResult.text = result.ToString();
-            thirdResult.text = firstExample.ToString();
+            secondResult.text = firstExample.ToString();
+            thirdResult.text = result.ToString();
             fourthResult.text = secondExample.ToString();
         }
 
@@ -195,7 +190,7 @@ public class TwoController : MonoBehaviour
     #region Buttons Return, Menu
     public void ReturnBtn()
     {
-        SceneManager.LoadScene(20);
+        SceneManager.LoadScene(31);
     }
 
     public void MenuBtn()

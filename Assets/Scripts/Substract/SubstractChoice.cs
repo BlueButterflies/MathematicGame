@@ -34,11 +34,6 @@ public class SubstractChoice : MonoBehaviour
         SceneManager.LoadScene(19);
     }
 
-    public void More()
-    {
-        SceneManager.LoadScene(20);
-    }
-
     public void Backbtn()
     {
         SceneManager.LoadScene(1);
