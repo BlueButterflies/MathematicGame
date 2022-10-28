@@ -39,8 +39,8 @@ public class AddEndThirty : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = Random.Range(1, 30);
-        secondNumber = Random.Range(1, 30);
+        firstNumber = Random.Range(1, 20);
+        secondNumber = Random.Range(1, 10);
 
         if (firstNumber - secondNumber < 0)
         {

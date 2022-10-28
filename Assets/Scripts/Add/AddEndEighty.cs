@@ -39,8 +39,8 @@ public class AddEndEighty : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = Random.Range(1, 80);
-        secondNumber = Random.Range(1, 80);
+        firstNumber = Random.Range(1, 40);
+        secondNumber = Random.Range(1, 40);
 
         if (firstNumber - secondNumber < 0)
         {

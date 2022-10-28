@@ -39,8 +39,8 @@ public class AddEndTwenty : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = Random.Range(1, 20);
-        secondNumber = Random.Range(1, 20);
+        firstNumber = Random.Range(1, 10);
+        secondNumber = Random.Range(1, 10);
 
         if (firstNumber - secondNumber < 0)
         {
@@ -107,8 +107,8 @@ public class AddEndTwenty : MonoBehaviour
         if (temp == 3)
         {
             firstResult.text = secondExample.ToString();
-            secondResult.text = thirdExample.ToString();
-            thirdResult.text = result.ToString();
+            secondResult.text = result.ToString();
+            thirdResult.text = thirdExample.ToString();
             fourthResult.text = firstExample.ToString();
         }
 
@@ -131,8 +131,8 @@ public class AddEndTwenty : MonoBehaviour
         if (temp == 6)
         {
             firstResult.text = thirdExample.ToString();
-            secondResult.text = secondExample.ToString();
-            thirdResult.text = result.ToString();
+            secondResult.text = result.ToString();
+            thirdResult.text = secondExample.ToString();
             fourthResult.text = firstExample.ToString();
         }
     }

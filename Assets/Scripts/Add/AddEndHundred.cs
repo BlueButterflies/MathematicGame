@@ -39,8 +39,8 @@ public class AddEndHundred : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = Random.Range(1, 100);
-        secondNumber = Random.Range(1, 100);
+        firstNumber = Random.Range(1, 50);
+        secondNumber = Random.Range(1, 50);
 
         if (firstNumber - secondNumber < 0)
         {

@@ -39,8 +39,8 @@ public class WithOneNumberController : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = Random.Range(10, 100);
-        secondNumber = Random.Range(1, 9);
+        firstNumber = Random.Range(10, 90);
+        secondNumber = Random.Range(2, 9);
 
         
 

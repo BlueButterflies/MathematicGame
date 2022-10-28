@@ -39,8 +39,8 @@ public class AddEndNinty : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = Random.Range(1, 90);
-        secondNumber = Random.Range(1, 90);
+        firstNumber = Random.Range(1, 50);
+        secondNumber = Random.Range(1, 40);
 
         if (firstNumber - secondNumber < 0)
         {

@@ -39,8 +39,8 @@ public class AddEndSixty : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = Random.Range(1, 60);
-        secondNumber = Random.Range(1, 60);
+        firstNumber = Random.Range(1, 30);
+        secondNumber = Random.Range(1, 30);
 
         if (firstNumber - secondNumber < 0)
         {

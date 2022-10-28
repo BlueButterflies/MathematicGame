@@ -42,8 +42,8 @@ public class AddEndTen : MonoBehaviour
 
     private void Calculated()
     {
-        firstNumber = UnityEngine.Random.Range(1, 10);
-        secondNumber = UnityEngine.Random.Range(1, 10);
+        firstNumber = UnityEngine.Random.Range(1, 5);
+        secondNumber = UnityEngine.Random.Range(1, 5);
 
         if (firstNumber - secondNumber < 0)
         {
