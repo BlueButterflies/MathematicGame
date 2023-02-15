@@ -1,4 +1,4 @@
-# Mathematic Game for Android
+# Mathematic Game for Android and Windows
 
 <h2>This is simple game where have addition, substract, multiplication and division</h2>
 <h3>The game is create in Unity with scrips in C#</h3>
