@@ -2,10 +2,7 @@
 
 <h2>This is simple game where have addition, substract, multiplication and division</h2>
 <h3>The game is create in Unity with scrips in C#</h3>
-<p align="center">
- <h2 align="center"> <a href="https://github.com/BlueButterflies/MathematicGame/files/10747262/Math.Game.setup.zip">Download fo Windows</h2>
- <h2 align="center"> <a href="https://github.com/BlueButterflies/MathematicGame/files/11101067/MathGame.zip">Download fo Android</h2>
-</p>
+
 
 <table>
   <tr>
